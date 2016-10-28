@@ -10,7 +10,9 @@ Jekyll also offers powerful support for code snippets:
 
 <pre>
 	<code class="java">
+		// This is the main method
 		public static void main(String[] args) {
+			// prints to console output
 			System.out.println("Hello world!");
 		}		
 	</code>
