@@ -14,7 +14,7 @@ title: Contact
         **E-mail:** tobola.jan@gmail.com \\
         **Phone:** +420 774 999 392 \\
         **Skype:** honza.tobola \\
-        **Linkedin:** [profile][1]{:target="_blank"}
+        **Linkedin:** [Jan Tobola][1]{:target="_blank"}
       </p>
     </div>
     <form action="https://getform.org/f/71ffd5d4-9042-4ea1-8a15-fefb4f6f1de6" method="POST">
