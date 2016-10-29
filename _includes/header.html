@@ -5,9 +5,9 @@
              <ul class="noList">
                  {% for link in site.navigation %}
                  	{% assign current = nil %}
-                 	{% if page.url contains link.url and link.title != 'Blog' %}
+                 	{% if page.url contains link.url and link.title != site.homepage.navigation_name %}
                  		{% assign current = 'current' %}
-                 	{% elsif link.title == 'Blog' and page.url == '/' or page.url contains '/blog/' %}
+                 	{% elsif link.title == site.homepage.navigation_name and page.url == '/' or page.url contains site.homepage.route_alias %}
                  		{% assign current = 'current' %}
                  	{% endif %}
                  <li class="element {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">

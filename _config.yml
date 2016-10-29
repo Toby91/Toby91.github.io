@@ -13,11 +13,15 @@ paginate: 5
 
 navigation:
  - title: Blog
-   url: /
+   url: /blog
  - title: About Me
-   url: /about
+   url: /
  - title: Contact
    url: /contact
+
+homepage:
+    navigation_name: About Me
+    route_alias: /about/
 
 social:
    github: Toby91
