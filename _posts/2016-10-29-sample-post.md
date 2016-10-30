@@ -6,7 +6,7 @@ Hello. This is a sample post with a code snippet.
 
 ### Code below
 
-{% code java %}
+<pre><code class="java">
     /**
      * BlogApp class
      */
@@ -19,7 +19,7 @@ Hello. This is a sample post with a code snippet.
         }
 
     }
-{% endcode %}
+</code></pre>
 
 ##### Remarks
 - This is good
