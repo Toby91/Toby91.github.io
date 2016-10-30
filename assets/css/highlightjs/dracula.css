@@ -17,8 +17,9 @@ http://zenorocha.mit-license.org
 .hljs {
   display: block;
   overflow-x: auto;
-  padding: 0.5em;
-  background: #09233A;
+  /*padding: 0.5em;*/
+  background: #112434;
+  line-height: normal;
 }
 
 .hljs-keyword,

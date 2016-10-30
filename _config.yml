@@ -1,33 +1,69 @@
-title: Jan Tobola
-description: I am Jan Tobola and this is my personal blog about programming and interesting things from programming world I've had to deal with...
-creationDate: 2016
+## Jekyll Configuration ##
+# ---------------------- #
 
+title: Jan Tobola
+description: My Personal Blogging platform
+creationDate: 2016
+google_analytics: "UA-86413564-1"
 url: http://jantobola.com
 baseurl: ""
-paginate_path: "blog/page/:num/"
+
+## Pagination settings
+# --------------------
+
+paginate_path: "blog/page-:num/"
 permalink: blog/:title/
+paginate: 5
+
+## Custom homepage for correct
+## active page highlighting
+# ----------------------------
+
+homepage:
+  navigation_name: About Me
+  route_alias: /about/
+
+## Social networks at the bottom
+# ------------------------------
+
+social:
+  github: Toby91
+  twitter: JanTobola
+  facebook: honza.tobola
+  email: tobola.jan@gmail.com
+
+## Navigation list to highlight
+## an active page
+# -----------------------------
+
+navigation:
+  - title: Blog
+    url: /blog
+  - title: About Me
+    url: /
+  - title: Contact
+    url: /contact
+
+## Default Jekyll configuration
+# -----------------------------
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+## Other Jekyll values
+# --------------------
 
 markdown: kramdown
 highlighter: rouge
 gems: [jekyll-paginate]
-paginate: 5
-
-navigation:
- - title: Blog
-   url: /blog
- - title: About Me
-   url: /
- - title: Contact
-   url: /contact
-
-homepage:
-    navigation_name: About Me
-    route_alias: /about/
-
-social:
-   github: Toby91
-   twitter: JanTobola
-   facebook: honza.tobola
-   email: tobola.jan@gmail.com
-
-google_analytics: "UA-86413564-1"
