@@ -1,6 +1,6 @@
 ---
 title: Sample Blog Post
-hidden: false
+hidden: true
 ---
 
 This is a sample post with a code snippet.
