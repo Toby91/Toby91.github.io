@@ -1,6 +1,6 @@
 ---
 title: Sample Blog Post
-hidden: true
+hidden: false
 ---
 
 This is a sample post with a code snippet.
@@ -21,6 +21,21 @@ This is a sample post with a code snippet.
 
     }
 </code></pre>
+
+`​`` java
+    /**
+     * BlogApp class
+     */
+    public class BlogApp {
+
+        // entry point
+        public static void main(String[] args) {
+            // prints string to console
+            System.out.println("Hello Blog!");
+        }
+
+    }
+`​``
 
 #### Remarks
 - This is good
