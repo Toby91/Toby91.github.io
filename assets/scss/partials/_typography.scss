@@ -115,3 +115,7 @@ blockquote {
 .primary-color {
   color: $primary-color;
 }
+
+.post > p {
+  text-align: justify;
+}
